@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Cardof from './components/Cardof';
+import jobs from './jobs';
+
+
 
 
 function App() {
-  //  const text = 'some text';
-  //  return <p>Hello World! Here is {text}</p>;
   return (
     <div className="App">
       <header>
@@ -64,169 +65,8 @@ function App() {
               </div>
 
             </div>
-            <div class="right-column">
 
-              <div class="small-square">
-                <div class="btn-group">
-                  <label class="btn btn-primary btn-pic img-wrapper">
-                    <button type="button" data-toggle="modal" data-target="#WatchChillModal" name="options"
-                      id="option1" autocomplete="off" checked><img
-                        src="./img/watch_chill_logo.png"/>
-                    </button>
-                  </label>
-                </div>
-                <div class="github-link">
-                  <button onclick="location.href='https://github.com/rargotte/watch-chill'" type="button"
-                    class="btn btn-primary">GitHub</button>
-                  <button onclick="location.href='https://rargotte.github.io/watch-chill/'" type="button"
-                    class="btn btn-primary">OPEN</button>
-                </div>
-
-              </div>
-
-
-              <div class="modal fade" id="WatchChillModal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Watch and Chill</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="./img/watch_chill_screenshot.png" />
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div class="small-square">
-                <div class="btn-group">
-                  <label class="btn btn-primary btn-pic img-wrapper">
-                    <button type="button" data-toggle="modal" data-target="#weather_dashboard" name="options"
-                      id="option2" autocomplete="off" checked><img
-                        src="./img/weather_dashboard_logo.png"/>
-                    </button>
-                  </label>
-                </div>
-                <div class="github-link">
-                  <button onclick="location.href='https://github.com/rargotte/weather-dashboard.git'"
-                    type="button" class="btn btn-primary">GitHub</button>
-                  <button onclick="location.href='https://rargotte.github.io/weather-dashboard/'"
-                    type="button" class="btn btn-primary">OPEN</button>
-                </div>
-
-              </div>
-
-              <div class="modal fade" id="weather_dashboard" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Weather Dashboard</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="./img/weather_dashboard_screenshot.png" />
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="small-square">
-                <div class="btn-group">
-                  <label class="btn btn-primary btn-pic img-wrapper">
-                    <button type="button" data-toggle="modal" data-target="#WorkDayScheduler" name="options"
-                      id="option3" autocomplete="off" checked><img
-                        src="./img/workday_scheduler_logo.png"/>
-                    </button>
-                  </label>
-                </div>
-                <div class="github-link">
-                  <button onclick="location.href='https://github.com/rargotte/Work-Day-Scheduler.git'"
-                    type="button" class="btn btn-primary">GitHub</button>
-                  <button onclick="location.href='https://rargotte.github.io/Work-Day-Scheduler/'"
-                    type="button" class="btn btn-primary">OPEN</button>
-                </div>
-
-              </div>
-
-
-
-              <div class="modal fade" id="WorkDayScheduler" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Work-Day-Scheduler</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="./img/workday_scheduler_screenshot.png" />
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="small-square">
-                <div class="btn-group">
-                  <label class="btn btn-primary btn-pic img-wrapper">
-                    <button type="button" data-toggle="modal" data-target="#u_meet" name="options"
-                      id="option1" autocomplete="off" checked><img src="./img/u_meet_logo.jpg"/>
-                    </button>
-                  </label>
-                </div>
-                <div class="github-link">
-                  <button onclick="location.href='https://github.com/csancheze/u-meet'" type="button"
-                    class="btn btn-primary">GitHub</button>
-                  <button onclick="location.href='https://u-meet-app.herokuapp.com/'" type="button"
-                    class="btn btn-primary">OPEN</button>
-                </div>
-
-              </div>
-
-
-              <div class="modal fade" id="u_meet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">u-meet</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <img src="./img/u_meet_screenshot.jpg" />
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-            </div>
+              <Cardof jobs={jobs} />
 
             <div class="left-column">
               <div id="contact" class="small.square">
