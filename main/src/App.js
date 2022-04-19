@@ -110,7 +110,7 @@ function App() {
               <div class="small-square">
                 <div class="btn-group">
                   <label class="btn btn-primary btn-pic img-wrapper">
-                    <button type="button" data-toggle="modal" data-target="#exampleModal" name="options"
+                    <button type="button" data-toggle="modal" data-target="#weather_dashboard" name="options"
                       id="option2" autocomplete="off" checked><img
                         src="./img/weather_dashboard_logo.png"/>
                     </button>
@@ -125,7 +125,7 @@ function App() {
 
               </div>
 
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+              <div class="modal fade" id="weather_dashboard" tabindex="-1" role="dialog"
                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                   <div class="modal-content">
