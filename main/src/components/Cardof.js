@@ -2,6 +2,17 @@ import React from 'react';
 
 
 export default function Cardof({ jobs }) {
+
+  function githubLink(job) {
+    console.log(job.githubClick);
+    window.location.href = job.githubClick;
+  }
+
+  function openLink(job) {
+    console.log(job.openClick);
+    window.location.href = job.openClick;
+  }
+
   return (
     <div class="right-column">
 
@@ -18,9 +29,9 @@ export default function Cardof({ jobs }) {
           </div>
 
           <div class="github-link">
-            <button onclick={job.githubClick} type="button"
+            <button onClick={() => githubLink(job)} type="button"
               class="btn btn-primary">GitHub</button>
-            <button onclick={job.openClick} type="button"
+            <button onClick={() => openLink(job)} type="button"
               class="btn btn-primary">OPEN</button>
           </div>
         </div>
