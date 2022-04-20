@@ -43,7 +43,7 @@ function App() {
                   Information
                   Technology who has performed the last 5 years as software developer manager and Solution
                   Architect for large global projects which demand solution to high complex business
-                  processes.
+                  processes. 
                   My soft skills in project management as well as my technical knowledge on software
                   development
                   provide a unique profile to create great solutions leveraging software, hardware, and
@@ -76,12 +76,12 @@ function App() {
             <div class="right-column">
               <div class="contact-square">
 
-                <a href="tel:+5215510801792" data-toggle="tooltip" data-html="true" title="Reach by Phone">
+                <a href="tel:+5215510801792" data-toggle="tooltip" data-html="true" title="+5215510801792">
                   <i class="bi bi-telephone"></i>
                 </a>
 
                 <a href="mailto:rargotte@hotmail.com" data-toggle="tooltip" data-html="true"
-                  title="Reach by email">
+                  title="rargotte@hotmail.com">
                   <i class="bi bi-envelope"></i>
                 </a>
 
@@ -95,8 +95,8 @@ function App() {
                   <i class="bi bi-briefcase-fill"></i>
                 </a>
 
-                <a href="https://www.linkedin.com/in/regulo-argotte-0865113?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGsnjYlEdQRuonDAHqA0FSQ%3D%3D" data-toggle="tooltip" data-html="true"
-                  title="Check Linkedin">
+                <a href="https://www.linkedin.com/in/regulo-argotte" data-toggle="tooltip" data-html="true"
+                  title="https://www.linkedin.com/in/regulo-argotte">
                   <i class="bi bi-linkedin"></i>
                 </a>
 
