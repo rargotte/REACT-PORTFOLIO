@@ -3,6 +3,7 @@ import NavTabs from './NavTabs';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import jobs from '../jobs';
 
 export default function PortfolioContainer() {
@@ -19,6 +20,10 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
