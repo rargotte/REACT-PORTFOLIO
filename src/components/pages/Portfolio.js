@@ -5,12 +5,10 @@ import Footer from '../footer';
 export default function Portfolio({ jobs }) {
 
     function githubLink(job) {
-        console.log(job.githubClick);
         window.location.href = job.githubClick;
     }
 
     function openLink(job) {
-        console.log(job.openClick);
         window.location.href = job.openClick;
     }
 

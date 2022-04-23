@@ -7,7 +7,8 @@ export default function Resume() {
             <div class="back-profile"></div>
             <div className="mx-auto" style={{ width: "300px" }}>
                 <h1 className='card-title'>Resume</h1>
-                <h2 className='card-title'>Download my <a className="badge badge-pill badge-primary" href='https://www.dropbox.com/s/gywbvo79yf42s8k/ReguloArgotte%20CV.pdf?dl=0'>resume</a>
+                <h2 className='card-title'>Download my <a className="badge badge-pill badge-primary"
+                 href='https://www.dropbox.com/s/gywbvo79yf42s8k/ReguloArgotte%20CV.pdf?dl=0'>resume</a>
                 </h2>
                 <h3 className='card-title'>Front End Proficiencies</h3>
                 <ul className="list-group">

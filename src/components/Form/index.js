@@ -58,7 +58,6 @@ function Form() {
   return (
     <div class="container">
       <div class="back-profile">
-
       </div>
       <form>
         <div className="form-group col-sm-5">
