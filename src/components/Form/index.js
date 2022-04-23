@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
+import Footer from '../footer';
 
 // Here we import a helper function that will check if the email is valid
 import { checkMessage, validateEmail } from '../../utils/helpers';
@@ -56,7 +57,9 @@ function Form() {
 
   return (
     <div class="container">
-      <div class="back-profile"></div>
+      <div class="back-profile">
+
+      </div>
       <form>
         <div className="form-group col-sm-5">
           <input className='form-control form-control-lg'
@@ -89,7 +92,7 @@ function Form() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-
+      <Footer />;
     </div >
   );
 }

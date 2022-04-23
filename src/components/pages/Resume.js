@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../footer';
 
 export default function Resume() {
     return (
@@ -31,6 +32,9 @@ export default function Resume() {
                 </ul>
 
             </div>
+
+            <Footer />;
+
         </div>
 
     );
