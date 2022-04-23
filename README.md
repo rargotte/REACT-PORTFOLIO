@@ -22,10 +22,12 @@ this application will be deployed to GitHub Pages. More info in the section "Ins
   
     `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
+
+YOu can also check the app opening  [https://rargotte.github.io/react-portfolio/](https://rargotte.github.io/react-portfolio/)
 
   # Usage
   This is a porfolio of my work. You can send me a message with your comments and also download my resume.
@@ -41,5 +43,4 @@ The page will reload when you make changes.\
 
   # Licenses
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  
-  Here there is a video that show how the solution works:
+
