@@ -20,7 +20,7 @@ export default function Footer() {
                         <i className="bi bi-envelope"></i>
                     </a>
 
-                    <a href="https://github.com/rargotte/portfolio-updated" data-toggle="tooltip" data-html="true"
+                    <a href="https://github.com/rargotte/react-portfolio" data-toggle="tooltip" data-html="true"
                         title="Check Github">
                         <i className="bi bi-github"></i>
                     </a>
