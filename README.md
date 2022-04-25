@@ -33,7 +33,7 @@ YOu can also check the app opening  [https://rargotte.github.io/react-portfolio/
   This is a porfolio of my work. You can send me a message with your comments and also download my resume.
 
   # Contributions
-  Just me. :)
+  Just me  :)
 
    # Github
   https://github.com/rargotte
