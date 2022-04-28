@@ -19,7 +19,7 @@ export default function About() {
                     </div>
                     <div className="right-column">
                         <div className="text-square">
-                            <h2>I am a certified SAP SD/MM/ABAP consultant with more than 24 years of working experience in
+                            <h2>I am a certified SAP SD/MM/ABAP consultant with more than 25 years of working experience in
                                 Information
                                 Technology who has performed the last 5 years as software developer manager and Solution
                                 Architect for large global projects which demand solution to high complex business
